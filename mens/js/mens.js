@@ -15,19 +15,8 @@ const updateStandings = (resultsArray) => {
     });
 }
 
-const updateCoedStandings = (resultsArray) => {
-    resultsArray.forEach(async week => {
-        await week.map((player, index) => {
-            coedTeams[player.id].wins += player.wins;
-            coedTeams[player.id].losses += player.losses;
-            coedTeams[player.id].points += player.points;
-        });
-    });
-}
-
 updateStandings(weeklyResults);
 const pContent = document.querySelector('#playerContent');
-const rList = document.querySelector('#resultList');
 const playersRanked = rankPlayers(players);
 const pItems = playersRanked.map((player, index) => `<tr>
                                         <th scope="row">${++index}</th>

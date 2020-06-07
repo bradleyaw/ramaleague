@@ -12,7 +12,6 @@ export default [
     { id: 10, name: "Adam Meier", wins: 0, losses: 0, points: 0 },
     { id: 11, name: "Rob Opalka", wins: 0, losses: 0, points: 0 },
     { id: 12, name: "Scott Poythress", wins: 0, losses: 0, points: 0 },
-    { id: 13, name: "John Sutton", wins: 0, losses: 0, points: 0 },
-    { id: 14, name: "Nate Vaughn", wins: 0, losses: 0, points: 0 }
+    { id: 13, name: "Peter Chavez", wins: 0, losses: 0, points: 0 }
 ]
 

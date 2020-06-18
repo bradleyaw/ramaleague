@@ -7,7 +7,7 @@ const rankPlayers = (playerArray) => {
 
 const updateStandings = (resultsArray) => {
     resultsArray.forEach(async week => {
-        await week.map((player, index) => {
+        await week.results.map((player, index) => {
             players[player.id].wins += player.wins;
             players[player.id].losses += player.losses;
             players[player.id].points += player.points;
@@ -18,12 +18,13 @@ const updateStandings = (resultsArray) => {
 updateStandings(weeklyResults);
 const pContent = document.querySelector('#playerContent');
 const playersRanked = rankPlayers(players);
+console.log(playersRanked);
 const pItems = playersRanked.map((player, index) => `<tr>
                                         <th scope="row">${++index}</th>
                                         <td>${player.name}</td>
                                         <td>${Math.round(player.wins)}</td>
                                         <td>${Math.round(player.losses)}</td>
-                                        <td>${typeof(player.wins/player.losses) === 'integer' ? Math.round(player.wins/player.losses) : Math.round(player.wins)}</td>
+                                        <td>${player.losses !== 0 ? player.wins/player.losses : Math.round(player.wins)}</td>
                                         <td>${Math.round(player.points)}</td>                
                                     </tr>`)
 

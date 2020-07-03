@@ -1,5 +1,5 @@
 export default [
-    { id: 0, name: "Garett Bergquist", wins: 0, losses: 0, points: 0 },
+    { id: 0, name: "Garrett Bergquist", wins: 0, losses: 0, points: 0 },
     { id: 1, name: "Lane Blundell", wins: 0, losses: 0, points: 0 },
     { id: 2, name: "Alex Bradley", wins: 0, losses: 0, points: 0 },
     { id: 3, name: "Matt Carucci", wins: 0, losses: 0, points: 0 },

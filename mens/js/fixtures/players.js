@@ -1,5 +1,5 @@
 export default [
-    { id: 0, name: "Garrett Bergquist", wins: 0, losses: 0, points: 0 },
+    { id: 0, name: "Garrett Bergquist", wins: 0.1, losses: 0.1, points: 0 },
     { id: 1, name: "Lane Blundell", wins: 0, losses: 0, points: 0 },
     { id: 2, name: "Alex Bradley", wins: 0, losses: 0, points: 0 },
     { id: 3, name: "Matt Carucci", wins: 0, losses: 0, points: 0 },
@@ -11,7 +11,7 @@ export default [
     { id: 9, name: "Vasyl Martniuk", wins: 0, losses: 0, points: 0 },
     { id: 10, name: "Adam Meier", wins: 0, losses: 0, points: 0 },
     { id: 11, name: "Rob Opalka", wins: 0, losses: 0, points: 0 },
-    { id: 12, name: "Scott Poythress", wins: 0.1, losses: 0.1, points: 0 },
+    { id: 12, name: "Scott Poythress", wins: 0.100000001, losses: 0.1, points: 0 },
     { id: 13, name: "Peter Chavez", wins: 0, losses: 0, points: 0 }
 ]
 

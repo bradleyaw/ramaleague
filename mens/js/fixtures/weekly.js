@@ -23,7 +23,7 @@ export default [
     {
         week: 2,
         // Jake Requested
-        byes: [4],
+        byes: [1, 4],
         results: [
             { id: 0, name: "Garrett Bergquist", wins: 2, losses: 1, points: 3 },
             { id: 1, name: "Lane Blundell", wins: 0, losses: 0, points: 0 },
@@ -43,18 +43,21 @@ export default [
     },
     {
         week: 3,
-        byes: [5, 12],
+        // Adam/Lane Requested
+        byes: [1, 10],
         results: [],
     },
     {
         week: 4,
-        byes: [],
+        // Rob requested
+        byes: [11],
         results: [],
 
     },
     {
         week: 5,
-        byes: [],
+        // Josh Requested
+        byes: [7],
         results: [],
 
     },

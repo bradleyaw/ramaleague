@@ -45,7 +45,22 @@ export default [
         week: 3,
         // Adam/Lane Requested
         byes: [1, 10],
-        results: [],
+        results: [
+            { id: 0, name: "Garrett Bergquist", wins: 1, losses: 2, points: 1 },
+            { id: 1, name: "Lane Blundell", wins: 0, losses: 0, points: 0 },
+            { id: 2, name: "Alex Bradley", wins: 1, losses: 2, points: -4 },
+            { id: 3, name: "Matt Carucci", wins: 2, losses: 1, points: 2 },
+            { id: 4, name: "Jake Clopton", wins: 1, losses: 2, points: 0 },
+            { id: 5, name: "Steve Cozzolongo", wins: 1, losses: 2, points: -8 },
+            { id: 6, name: "Ben Djernes", wins: 1, losses: 2, points: 2 },
+            { id: 7, name: "Josh Duc", wins: 0, losses: 3, points: -12 },
+            { id: 8, name: "Aaron Von Der Embse", wins: 2, losses: 1, points: 8 },
+            { id: 9, name: "Vasyl Martniuk", wins: 3, losses: 0, points: 12 },
+            { id: 10, name: "Adam Meier", wins: 0, losses: 0, points: 0 },
+            { id: 11, name: "Rob Opalka", wins: 1, losses: 2, points: -7 },
+            { id: 12, name: "Scott Poythress", wins: 3, losses: 0, points: 11 },
+            { id: 13, name: "Peter Chavez", wins: 1, losses: 2, points: -5 }
+        ],
     },
     {
         week: 4,

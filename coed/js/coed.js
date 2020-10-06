@@ -1,12 +1,16 @@
-import teams from './teams.js'
-import weeklyResults from './weekly.js'
+import teams from './fixtures/teams.js'
+import weeklyResults from './fixtures/weekly.js'
 const rankTeams = (teamArray) => {
     return teamArray.sort(function (a, b) { return b.wins - a.wins || b.points - a.points })
 }
 
 const updateCoedStandings = (resultsArray) => {
+    console.log(resultsArray)
     resultsArray.forEach(async week => {
-        await week.map((team, index) => {
+        console.log(week);
+        await week.results.map((team, index) => {
+            console.log(team);
+            console.log(teams);
             teams[team.id].wins += team.wins;
             teams[team.id].losses += team.losses;
             teams[team.id].points += team.points;

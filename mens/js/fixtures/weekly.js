@@ -2,7 +2,7 @@ export default [
     {
         week: 1,
         // Garrett Scotty Requested
-        byes: [1, 12],
+        byes: [0, 12],
         results: [
             { id: 0, name: "Garrett Bergquist", wins: 0, losses: 0, points: 0 },
             { id: 1, name: "Lane Blundell", wins: 2, losses: 1, points: 3 },
@@ -135,13 +135,28 @@ export default [
         // 10/8 
         // Adam, Rob Requested
         byes: [10, 11],
-        results: [],
+        results: [
+            { id: 0, name: "Garrett Bergquist", wins: 1, losses: 2, points: -3 },
+            { id: 1, name: "Lane Blundell", wins: 2, losses: 1, points: 5 },
+            { id: 2, name: "Alex Bradley", wins: 2, losses: 1, points: -1 },
+            { id: 3, name: "Matt Carucci", wins: 2, losses: 1, points: 3 },
+            { id: 4, name: "Jake Clopton", wins: 0, losses: 3, points: -7 },
+            { id: 5, name: "Steve Cozzolongo", wins: 1, losses: 2, points: -7 },
+            { id: 6, name: "Ben Djernes", wins: 2, losses: 1, points: 1 },
+            { id: 7, name: "Josh Duc", wins: 2, losses: 1, points: 3 },
+            { id: 8, name: "Aaron Von Der Embse", wins: 2, losses: 1, points: 5 },
+            { id: 9, name: "Vasyl Martniuk", wins: 3, losses: 0, points: 13 },
+            { id: 10, name: "Adam Meier", wins: 0, losses: 0, points: 0 },
+            { id: 11, name: "Rob Opalka", wins: 0, losses: 0, points: 0 },
+            { id: 12, name: "Scott Poythress", wins: 1, losses: 2, points: -3 },
+            { id: 13, name: "Peter Chavez", wins: 0, losses: 3, points: -9 }
+        ],
     },
     {
         week: 8,
         // 10/15
-        // Jake requested
-        byes: [4,],
+        // Jake requested (alex also,)
+        byes: [4,3],
         results: [],
     },
     {

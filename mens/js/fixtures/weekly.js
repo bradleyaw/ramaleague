@@ -19,7 +19,7 @@ export default [
             { id: 12, wins: 2, losses: 1, points: 7 },
             { id: 13, wins: 2, losses: 1, points: 5 },
             { id: 14, wins: 0, losses: 3, points: -11 },
-            { id: 15, wins: 1, losses: 2, points: 8 },
+            { id: 15, wins: 1, losses: 2, points: -8 },
         ],
     },
     {

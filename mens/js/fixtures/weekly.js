@@ -46,17 +46,34 @@ export default [
         ],
     },
     {
-        // Scotty Alex requested
+        // Scotty Alex Rob Josh requested
         // 4.22
         week: 3,
-        byes: [],
-        results: [],
+        byes: [1,6,9,11],
+        results: [
+            { id: 0, name: "Lane Blundell", wins: 2, losses: 1, points: -1 },
+            { id: 1, name: "Alex Bradley", wins: 0, losses: 0, points: 0 },
+            { id: 2, name: "Matt Carucci", wins: 1, losses: 2, points: -4 },
+            { id: 3, name: "Peter Chavez", wins: 1, losses: 2, points: -6 },
+            { id: 4, name: "Jake Clopton", wins: 3, losses: 0, points: 12 },
+            { id: 5, name: "Steve Cozzolongo", wins: 1, losses: 2, points: 2 },
+            { id: 6, name: "Josh Duc", wins: 0, losses: 0, points: 0 },
+            { id: 7, name: "Aaron Von Der Embse", wins: 2, losses: 1, points: 5 },
+            { id: 8, name: "Vasyl Martniuk", wins: 1, losses: 2, points: -8 },
+            { id: 9, name: "Rob Opalka", wins: 0, losses: 0, points: 0 },
+            { id: 10, name: "Evgheni Pascalov", wins: 2, losses: 1, points: 9 },
+            { id: 11, name: "Scott Poythress", wins: 0, losses: 0, points: 0 },
+            { id: 12, name: "Mauricio Reece", wins: 0, losses: 3, points: -13 },
+            { id: 13, name: "Nyle Rothschild", wins: 1, losses: 2, points: 0 },
+            { id: 14, name: "Verun Tahiliani", wins: 3, losses: 0, points: 16 },
+            { id: 15, name: "Courtney Wilson", wins: 1, losses: 2, points: -12 },
+        ],
     },
     {
         // Scotty Alex requested
         // 4.29
         week: 4,
-        byes: [],
+        byes: [1, 11],
         results: [],
     },
     {

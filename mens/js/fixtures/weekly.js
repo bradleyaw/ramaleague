@@ -161,8 +161,31 @@ export default [
         ],
     },
     {
-        // 8.05
-        week: 4,
+        // 9.02
+        week: 8,
+        byes: [],
+        results: [
+            { id: 0, name: "Lane Blundell", wins: 2, losses: 1, points: 6 },
+            { id: 1, name: "Alex Bradley", wins: 2, losses: 1, points: -2 },
+            { id: 2, name: "Matt Carucci", wins: 0, losses: 3, points: -10 },
+            { id: 3, name: "Peter Chavez", wins: 2, losses: 1, points: 6 },
+            { id: 4, name: "Jake Clopton", wins: 2, losses: 1, points: 2 },
+            { id: 5, name: "Steve Cozzolongo", wins: 1, losses: 2, points: 4 },
+            { id: 6, name: "Josh Duc", wins: 0, losses: 0, points: 0 },
+            { id: 7, name: "Aaron Von Der Embse", wins: 1, losses: 2, points: -8 },
+            { id: 8, name: "Vasyl Martniuk", wins: 2, losses: 1, points: 2 },
+            { id: 9, name: "Rob Opalka", wins: 0, losses: 0, points: 0 },
+            { id: 10, name: "Evgheni Pascalov", wins: 1, losses: 2, points: -8 },
+            { id: 11, name: "Scott Poythress", wins: 2, losses: 1, points: 2 },
+            { id: 12, name: "Mauricio Reece", wins: 0, losses: 0, points: 0 },
+            { id: 13, name: "Nyle Rothschild", wins: 3, losses: 0, points: 12 },
+            { id: 14, name: "Verun Tahiliani", wins: 0, losses: 3, points: -6 },
+            { id: 15, name: "Courtney Wilson", wins: 0, losses: 0, points: 0 },
+        ],
+    },
+    {
+        // 9.9
+        week: 9,
         byes: [],
         results: [
             { id: 0, name: "Lane Blundell", wins: 0, losses: 0, points: 0 },
@@ -184,8 +207,8 @@ export default [
         ],
     },
     {
-        // 8.05
-        week: 4,
+        // 9.16
+        week: 10,
         byes: [],
         results: [
             { id: 0, name: "Lane Blundell", wins: 0, losses: 0, points: 0 },

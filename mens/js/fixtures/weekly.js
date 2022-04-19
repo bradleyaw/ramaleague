@@ -3,7 +3,7 @@ export default [
         week: 1,
         byes: [],
         results: [
-            { id: 0, name: "Garrett Bergquist", wins: 0, losses: 0, points: 0 },
+            { id: 0, name: "Garrett Bergquist", wins: 1, losses: 2, points: -2 },
             { id: 1, name: "Lane Blundell", wins: 3, losses: 0, points: 10 },
             { id: 2, name: "Alex Bradley", wins: 1, losses: 2, points: -2 },
             { id: 3, name: "Matt Carucci", wins: 0, losses: 0, points: 0 },
